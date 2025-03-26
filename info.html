@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home Page</a> ||
+        <a href="classes.html">Classes</a> ||
+        <a href="info.html">Contact Page</a>
+    </nav>
+    <form action="thankyou.html">
+        <h2>Personal Information</h2>
+        <section id="personal">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lName">Last name:</label><br>
+            <input type="text" id="lName" name="lName" required><br>
+
+            <label for="email">Enter your email:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="phone">Enter your phone number:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
+
+            <h5 id="form">What is the best way to contact you:</h5>
+            <input type="radio" id="phone#" name="bestWayToContact" value="Phone#">
+            <label for="phone#">Phone#</label><br>
+            <input type="radio" id="Email" name="bestWayToContact" value="Email">
+            <label for="Email">Email</label><br>
+            <input type="radio" id="Pigeon" name="bestWayToContact" value="Pigeon">
+            <label for="Pigeon">Carrier Pigeon</label><br>
+        </section>
+
+        <h2>Class Options</h2>
+        <section id="classOptions">
+            <h5 class="form">Select the classes you would like to do:</h5>
+            <input type="checkbox" id="class1" name="class1" value="CrossTraining">
+            <label for="class1"> Cross Training</label><br>
+            <input type="checkbox" id="class2" name="class2" value="Sprint">
+            <label for="class2"> Sprint</label><br>
+            <input type="checkbox" id="class3" name="class3" value="BodyPump">
+            <label for="class3"> Body Pump</label><br>
+            <input type="checkbox" id="class4" name="class4" value="AdvancedCrossTraining">
+            <label for="class4"> Advanced Cross Training</label><br>
+            <input type="checkbox" id="class5" name="class5" value="MixxedFit">
+            <label for="class5"> Mixxed Fit</label><br>
+            <input type="checkbox" id="class6" name="class6" value="Spin">
+            <label for="class6"> Spin</label><br>
+            <input type="checkbox" id="class7" name="class7" value="BodyCombat">
+            <label for="class7"> Body Combat</label><br>
+            <input type="checkbox" id="class8" name="class8" value="StepInterval">
+            <label for="class8"> Step Interval</label><br>
+            <input type="checkbox" id="class9" name="class9" value="Zumba">
+            <label for="class9"> Zumba</label><br>
+
+            <h5 class="form">Select am or pm classes:</h5>
+            <input type="radio" id="am" name="AM/PMClasses" value="am">
+            <label for="am">AM Classes</label><br>
+            <input type="radio" id="pm" name="AM/PMClasses" value="pm">
+            <label for="pm">PM Classes</label><br>
+        </section>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <footer>
+        <h4>&copy; Rylan Lashley 2025</h4>
+    </footer>
+</body>
+
+</html>

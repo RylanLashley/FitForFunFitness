@@ -1,0 +1,99 @@
+td {
+    border: 5px double black;
+}
+
+body {
+    background-color: rgb(36, 67, 94);
+}
+
+#personal,
+#classOptions {
+    border: 5px double black;
+}
+
+.form {
+    margin: 0;
+    font-weight: bolder;
+}
+
+h2 {
+    margin-bottom: 0;
+    background-color: white;
+}
+
+#dates {
+    background-color: grey;
+}
+
+.even {
+    background-color: antiquewhite;
+}
+
+.odd {
+    background-color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    background-color: black;
+    color: blue;
+}
+
+footer {
+    font-weight: bolder;
+    text-align: center;
+    vertical-align: bottom;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    background-color: white;
+    padding: 0px;
+    margin-bottom: 0px;
+    font-family: cursive;
+}
+
+#paragraph {
+    text-align: center;
+    padding: 0px;
+    margin-top: 0px;
+    background-color: white;
+
+}
+
+nav {
+    text-align: center;
+    position: sticky;
+}
+
+img {
+    border: 5px double black;
+    display: inline-block;
+    box-shadow: 5px 5px black, 10px 10px white;
+}
+
+#gab {
+    margin-right: 150px;
+    margin-bottom: 60px
+}
+
+#bcg {
+    margin-bottom: 45px;
+}
+
+#cft {
+    margin-left: 150px;
+}
+
+footer {
+    font-family: cursive;
+}
